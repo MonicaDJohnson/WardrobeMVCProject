@@ -9,11 +9,18 @@
     <p>
         @Html.ActionLink("Create New", "Create")
     </p>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
     <div class="container">
         <div class="row">
             <div class="col">
                 @Html.DisplayNameFor(model => model.Name)
-                   
+
             </div>
             <div class="col">
                 @Html.DisplayNameFor(model => model.Photo)
@@ -30,14 +37,14 @@
             <div class="col">
                 @Html.DisplayNameFor(model => model.Occasion)
             </div>
-            
+
             <div class="container">
                 @foreach (var item in Model)
                 {<div class="row">
                         <div class="col">
 
                             @Html.DisplayFor(modelItem => item.Name)
-                            
+
                         </div>
                         <div class="col">
                             @Html.DisplayFor(modelItem => item.Photo)
@@ -57,13 +64,13 @@
                         <div class="col">
                             @Html.ActionLink("Edit", "Edit", new { id = item.ShoesID }) |
                             @Html.ActionLink("Details", "Details", new { id = item.ShoesID }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.ShoesID })
+                            <button class="button" id="shoeindexbutton">  @Html.ActionLink("Delete", "Delete", new { id = item.ShoesID })</button>
                         </div>
 
                     </div>
                 }
             </div>
         </div>
-        
+
     </div>
 </div>

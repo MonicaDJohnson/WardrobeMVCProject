@@ -5,7 +5,13 @@
 }
 <div class="container" id="accessoriesindex">
     <h2>Index</h2>
-
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
     <p>
         @Html.ActionLink("Create New", "Create")
     </p>
@@ -42,7 +48,7 @@
                 @Html.DisplayNameFor(model => model.Occasion)
 
             </div>
-
+            <div class="col"></div>
         </div>
         <div class="container">
             @foreach (var item in Model)
@@ -67,7 +73,7 @@
                         @Html.DisplayFor(modelItem => item.Occasion)
                     </div>
                     <div class="col">
-                        @Html.ActionLink("Edit", "Edit", new { id = item.AccessoriesID }) |
+                        <button class="button" id="accindexbutton">   @Html.ActionLink("Edit", "Edit", new { id = item.AccessoriesID }) |</button>
                         @Html.ActionLink("Details", "Details", new { id = item.AccessoriesID }) |
                         @Html.ActionLink("Delete", "Delete", new { id = item.AccessoriesID })
                     </div>

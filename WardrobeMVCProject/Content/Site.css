@@ -22,3 +22,40 @@ select,
 textarea {
     max-width: 280px;
 }
+/*//my code starts here*/
+
+#accdetailsbutton{
+    background-color: green;
+}
+
+#accindexbutton{
+    background-color:green;
+}
+
+#butdetailsbutton{
+    background-color: red;
+}
+
+#butindexbutton{
+    background-color:red;
+}
+
+#shoedetailsbutton{
+    background-color:blue;
+}
+
+#shoeindexbutton{
+    background-color:blue;
+}
+
+#topdetailsbutton{
+    background-color:rebeccapurple;
+}
+
+#topindexbutton{
+    background-color:rebeccapurple;
+}
+
+#mainpagebutton{
+    background-color:orange;
+}
