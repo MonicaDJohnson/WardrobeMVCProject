@@ -1,13 +1,13 @@
 ﻿@model WardrobeMVCProject.Accessory
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Details"; 
 }
 <div class="container" id="accessoriesdetails">
     <h2>Details</h2>
 
     <div>
-        <h4>Accessory</h4>
+        <h4>Accessory</h4> @*//I put the same number of columns in each container, in order to even them out. They are still uneven. I am not sure why.*@
         <div class="col"></div>
         <div class="col"></div>
         <div class="col"></div>
@@ -36,7 +36,8 @@
                 <div class="col">
 
                     @Html.DisplayNameFor(model => model.Photo)
-
+  
+                    <img src="~/Content/Wardrobe Images/7500057518.jpg" />
                 </div>
                 <div class="col">
 

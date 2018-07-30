@@ -59,3 +59,39 @@ textarea {
 #mainpagebutton{
     background-color:orange;
 }
+
+#accessoriesdetails{
+    background-color:lightgreen;
+}
+
+#accessoriesindex{
+    background-color:lightgreen;
+}
+
+#bottomsdetails{
+    background-color:indianred;
+}
+
+#bottomsindex{
+    background-color:indianred;
+}
+
+#shoesdetails{
+    background-color:lightblue;
+}
+
+#shoesindex{
+    background-color:lightblue;
+}
+
+#topsdetails{
+    background-color:mediumpurple;
+}
+
+#topsindex{
+    background-color:mediumpurple;
+}
+
+#mainpage{
+    background-color:navajowhite;
+}
